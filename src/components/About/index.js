@@ -1,5 +1,4 @@
 import React from 'react';
-// import About from '../components/About/index.js';
 // import coverImage from './assets/anjuli.jpg';
 
 
@@ -7,7 +6,7 @@ function About() {
 
   return (
     <section className="my-5">
-    <h1 id="about"> Early WOC Front-End Developer <br>Social Impact Driven</br> <br>Dog Enthusiast</br></h1>
+    <h1 id="about"> Early WOC Front-End Developer,Social Impact Driven,Dog Enthusiast</h1>
     <img id= "img" src="" className="my-2" style={{ width: "50%" }} alt="cover" />
     <div className="my-2 bio">
       <p>
