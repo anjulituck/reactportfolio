@@ -20,7 +20,7 @@ function Project(props) {
             <li className="list-group-item">{props.category}</li>
             <li className="list-group-item">{props.tech}</li>
           </ul>
-          <div className="card-body fw-bold text-uppercase">
+          <div className="card-body fw-bold text-uppercase ">
             <a href={props.url} className="card-link btn ">Working Site</a>
             <a href={props.live} className="card-link btn ">Live Site</a>
           </div>
