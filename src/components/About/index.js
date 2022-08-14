@@ -9,7 +9,7 @@ function About() {
       <div className="row align-items-start">
         <div className="col-6 mx-2">
         <h2 className="about mb-5"id="about"> WOC Front-End Developer+Social Impact Driven+Dog Enthusiast</h2>
-        <img id= "img" src={coverImage} className="my-2" style={{ width: "50%" }} alt="cover" />
+        <img id= "headshot" src={coverImage} className="headshot my-2" style={{ width: "50%" }} alt="cover" />
         </div>
     <div className="bio col-4 mx-2" id="bio">
       <p>

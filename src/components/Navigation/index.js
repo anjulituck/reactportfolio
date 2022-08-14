@@ -13,17 +13,17 @@ function Nav() {
             <nav className="mx-1 container ">
                 <ul className="nav nav-tabs" id="nav">
                     <li className="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#portfolio">
+                        <a className="nav-link active" aria-current="page" href="#portfolio">
                         PORTFOLIO
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#resume">
+                        <a className="nav-link active" aria-current="page" href="#resume">
                         RESUME
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contact">
+                        <a className="nav-link active" aria-current="page" href="#contact">
                         CONTACT
                         </a>
                     </li>
