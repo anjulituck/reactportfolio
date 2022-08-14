@@ -95,15 +95,24 @@ a:hover{
   justify-content:space-evenly;
   align-items: center;
   background-color: var(--secondary);
-}
-#header h2, #nav a{
   color: var(--primary) !important;
 }
+ #nav a, #logo a{
+  color: var(--primary) !important;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
 
+#nav a:hover, #logo a:hover{
+  color:var(--light) !important;
+  font-size:2.5rem;
+}
 #nav{
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
+  padding-top: 10px;
 }
 
 img{
