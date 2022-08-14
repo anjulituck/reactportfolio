@@ -2,6 +2,7 @@ import React from 'react';
 import Project from "../Project"
 import projects from "../../projects"
 
+//key prop not working; keep getting error 
 function Portfolio() {
     return (
       <section className="portfolio container" id="portfolio">
